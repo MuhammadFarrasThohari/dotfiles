@@ -1,0 +1,9 @@
+/* Primary colors for widgets */
+@define-color primary     #64727d;
+@define-color secondary   #3b3b3b;
+
+/* Status colors */
+@define-color success     #26a65b;
+@define-color warning     #f1c40f;
+@define-color danger      #f53c3c;
+@define-color muted       #90b1b1;

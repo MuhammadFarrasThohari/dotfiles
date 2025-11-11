@@ -22,4 +22,5 @@ cp -r waybar ~/.config/
 ```
 
 Catatan:
+
 - File ini dibuat otomatis oleh skrip bantuan. Silakan edit untuk menambahkan instruksi pemasangan, lisensi, atau catatan tambahan.

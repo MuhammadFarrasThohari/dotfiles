@@ -1,0 +1,55 @@
+/* stylelint-disable property-no-unknown */
+@import "color.css";
+
+* {
+  /* `otf-font-awesome` is required to be installed for icons */
+  font-family: GeistMono Nerd Font, FreeSerif, JetBrainsMono Nerd Font,
+    sans-serif;
+  font-size: 14px;
+}
+
+window#waybar {
+  background-color: rgba(31, 31, 32, 0.8);
+  /* border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
+  color: #d9dadd;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  /* Prevents flickering when using `opacity` */
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+#workspaces button.active {
+  background-color: #343d46;
+  border-radius: 25%;
+}
+
+.modules-right {
+  background-color: #343d46;
+  border-radius: 8px;
+  padding: 0 8px;
+}
+
+.modules-center {
+  background-color: #343d46;
+  border-radius: 8px;
+  padding: 0 8px;
+}
+
+#idle_inhibitor {
+}
+
+#power-profiles-daemon {
+}
+
+#custom-power {
+  border-left: #d9dadd 1px solid;
+  padding: 0px 8px;
+  margin: 5px 0px;
+}
+
+#tray {
+  background-color: #ffffff;
+}
